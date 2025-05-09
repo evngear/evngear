@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EVNGEAR</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header class="navbar">
@@ -36,14 +37,14 @@
 
   <section class="hero-banner">
     <div class="hero-overlay"></div>
-    <div class="hero-text animate-fade">
+    <div class="hero-text" data-aos="fade-up">
       <h1>EVNGEAR</h1>
       <p>Gear designed by a creator, for creators. Lightweight. Rugged. Clean.</p>
       <a href="#products" class="button">See Creator Favorites</a>
     </div>
   </section>
 
-  <section id="products" class="product">
+  <section id="products" class="product" data-aos="fade-up">
     <h2>Creator Favorite</h2>
     <div class="product-grid">
       <img src="solar-placeholder.jpg" alt="EVNGEAR Solar Panel" />
@@ -61,12 +62,12 @@
     </div>
   </section>
 
-  <section id="about" class="about">
+  <section id="about" class="about" data-aos="fade-right">
     <h2>About EVNGEAR</h2>
     <p>EVNGEAR is a creator-led outdoor brand merging performance and aesthetics. For those who live behind and in front of the lens.</p>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="contact" class="contact" data-aos="fade-left">
     <h2>Contact Us</h2>
     <p>Email: contact@evngear.com</p>
   </section>
@@ -79,5 +80,10 @@
       <a href="https://www.tiktok.com/@evnview" target="_blank">TikTok</a>
     </p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
