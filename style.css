@@ -8,10 +8,13 @@ body {
 
 .navbar {
   background: #111;
-  padding: 15px 20px;
+  padding: 10px 20px;
+}
+
+.nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
 
 .nav-logo {
@@ -56,18 +59,26 @@ body {
   display: block;
 }
 
-.hero-lite {
-  background: #000;
-  padding: 60px 20px 40px;
+.hero-banner {
+  height: 33vh;
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.hero-content h1 {
-  font-size: 3rem;
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
-.hero-content p {
+.hero-text p {
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
@@ -87,7 +98,7 @@ body {
 }
 
 .product {
-  padding: 50px 20px;
+  padding: 60px 20px;
   background: #111;
   text-align: center;
 }
