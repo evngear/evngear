@@ -8,47 +8,73 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="hero">
-      <div class="overlay"></div>
-      <div class="hero-content">
-        <h1>EVNGEAR</h1>
-        <p>Premium gear for creators and explorers. Built for the wild. Designed for the shot.</p>
-        <a href="#" class="button">Join the Journey</a>
-      </div>
-    </header>
-
-    <section class="product">
-      <h2>Featured Product</h2>
-      <div class="product-grid">
-        <img src="solar-placeholder.jpg" alt="EVNGEAR Solar Panel" />
-        <div>
-          <h3>EVNGEAR Solar Charger</h3>
-          <ul class="features">
-            <li>☀️ Solar Powered</li>
-            <li>💧 Waterproof & Rugged</li>
-            <li>⚡ Dual Output: USB-A & USB-C</li>
-            <li>🧵 Minimal EVN Branding</li>
-          </ul>
-          <p class="description">Charge your gear on the trail. Lightweight, foldable, and built to perform in extreme conditions. EVNGEAR’s first release is made for the modern explorer.</p>
-          <a href="#" class="button">Get Notified</a>
+  <header class="navbar">
+    <div class="nav-logo">EVNGEAR</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <div class="dropdown">
+        <a href="#">Clothing</a>
+        <div class="dropdown-content">
+          <a href="#">Jackets</a>
+          <a href="#">Trousers</a>
+          <a href="#">Base Layers</a>
         </div>
       </div>
-    </section>
+      <div class="dropdown">
+        <a href="#">Gear</a>
+        <div class="dropdown-content">
+          <a href="#">Solar Charger</a>
+          <a href="#">Accessories</a>
+        </div>
+      </div>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section class="about">
-      <h2>Why EVNGEAR?</h2>
-      <p>Created by a nature content creator with over 500k followers, EVNGEAR brings together field-tested design, minimalist aesthetics, and utility-driven gear. Designed for the wild, made to move with you.</p>
-    </section>
+  <section class="hero-lite">
+    <div class="hero-content">
+      <h1>EVNGEAR</h1>
+      <p>Built for the wild. Designed for the shot.</p>
+      <a href="#products" class="button">Shop Creator Favorites</a>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <p>&copy; 2025 EVNGEAR. All rights reserved.</p>
-      <p>
-        Follow us: 
-        <a href="https://www.instagram.com/evnview" target="_blank">Instagram</a> | 
-        <a href="https://www.tiktok.com/@evnview" target="_blank">TikTok</a>
-      </p>
-    </footer>
-  </div>
+  <section id="products" class="product">
+    <h2>Featured Gear</h2>
+    <div class="product-grid">
+      <img src="solar-placeholder.jpg" alt="EVNGEAR Solar Panel" />
+      <div>
+        <h3>EVNGEAR Solar Charger</h3>
+        <ul class="features">
+          <li>☀️ Solar Powered</li>
+          <li>💧 Waterproof & Rugged</li>
+          <li>⚡ Dual Output: USB-A & USB-C</li>
+          <li>🧵 Minimal EVN Branding</li>
+        </ul>
+        <p class="description">Charge your gear on the trail. Lightweight, foldable, and built to perform in extreme conditions. EVNGEAR’s first release is made for the modern explorer.</p>
+        <a href="#" class="button">View Product</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About EVNGEAR</h2>
+    <p>Born from the experience of capturing nature in its rawest form. EVNGEAR combines function, style, and innovation for modern explorers and creators.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at: contact@evngear.com</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 EVNGEAR. All rights reserved.</p>
+    <p>
+      Follow us: 
+      <a href="https://www.instagram.com/evnview" target="_blank">Instagram</a> | 
+      <a href="https://www.tiktok.com/@evnview" target="_blank">TikTok</a>
+    </p>
+  </footer>
 </body>
 </html>
