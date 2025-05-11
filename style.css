@@ -95,38 +95,10 @@ body {
   font-weight: bold;
 }
 
-.product, .about, .contact, .notify {
+.preorder, .about, .contact {
   padding: 60px 20px;
   text-align: center;
   background: #111;
-}
-
-.product-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.product-grid img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
-}
-
-.features li {
-  margin-bottom: 8px;
-}
-
-.description {
-  margin: 20px 0;
 }
 
 .notify-form input[type="email"] {
