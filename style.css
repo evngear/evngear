@@ -61,3 +61,69 @@ body {
     align-items: flex-start;
   }
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('pexels-dreamypixel-552785.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: white;
+  color: black;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.product-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.product-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.product-features {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.product-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-features li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
