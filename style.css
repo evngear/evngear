@@ -2,12 +2,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .navbar {
-  background: #111;
+  background: #000;
   padding: 10px 20px;
 }
 
@@ -20,6 +20,7 @@ body {
 .nav-logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .nav-links {
@@ -41,7 +42,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #222;
+  background-color: #111;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   min-width: 160px;
   z-index: 1;
@@ -84,11 +85,12 @@ body {
   position: relative;
   z-index: 1;
   padding: 20px;
+  color: white;
 }
 
 .button {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   padding: 10px 24px;
   border-radius: 25px;
   text-decoration: none;
@@ -98,7 +100,8 @@ body {
 .preorder {
   padding: 60px 20px;
   text-align: center;
-  background: #111;
+  background: #fff;
+  color: #000;
 }
 
 .product-showcase {
@@ -114,13 +117,23 @@ body {
   width: 100%;
   max-width: 550px;
   border-radius: 12px;
-  background-color: #000;
+  background-color: #fff;
+}
+
+.product-showcase ul {
+  text-align: left;
+  max-width: 500px;
+  padding-left: 20px;
+}
+
+.product-showcase li {
+  margin-bottom: 10px;
 }
 
 .notify-form input[type="email"] {
   padding: 10px;
   width: 250px;
-  border: none;
+  border: 1px solid #000;
   border-radius: 5px;
   margin-right: 10px;
 }
@@ -128,8 +141,8 @@ body {
 .notify-form button {
   padding: 10px 20px;
   border: none;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
@@ -138,11 +151,12 @@ body {
 .about, .contact {
   padding: 60px 20px;
   text-align: center;
-  background: #111;
+  background: #fff;
 }
 
 .footer {
-  background: #111;
+  background: #000;
   padding: 20px;
   text-align: center;
+  color: #fff;
 }
