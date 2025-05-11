@@ -8,59 +8,92 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">EVNGEAR</div>
+
+<header class="navbar">
+  <div class="nav-container">
       <div class="hamburger" onclick="toggleMenu()">☰</div>
-      <nav class="nav-links">
-        <a href="#">Home</a>
+    <div class="nav-logo">EVNGEAR</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <div class="dropdown">
         <a href="#">Clothing</a>
+        <div class="dropdown-content">
+          <a href="#">Jackets</a>
+          <a href="#">Trousers</a>
+          <a href="#">Base Layers</a>
+        </div>
+      </div>
+      <div class="dropdown">
         <a href="#">Gear</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="hero">
-    <div class="hero-text">
-      <h1>EVNGEAR</h1>
-      <p>Gear designed by a creator, for creators. Lightweight. Rugged. Clean.</p>
-      <a class="button" href="#preorder">Preorder Backpack</a>
-    </div>
-  </main>
-
-  <section id="preorder" class="preorder">
-    <h2>EVNGEAR Creator Pack</h2>
-    <p class="product-tagline">Preview of the first backpack designed for hybrid creators and hikers.</p>
-    <div class="product-columns">
-      <div class="product-image">
-        <img src="backpack.png" alt="EVNGEAR Backpack Prototype" />
+        <div class="dropdown-content">
+          <a href="backpack.html">Backpack</a>
+          <a href="#">Accessories</a>
+        </div>
       </div>
-      <div class="product-features">
-        <ul>
-          <li>🎒 Modular storage with camera + hiking gear modes</li>
-          <li>💻 Laptop compartment + quick side-access for creators</li>
-          <li>🎥 Shoulder strap zip for SD cards & thin accessories</li>
-          <li>💧 Waterproof shell + integrated rain cover</li>
-          <li>🔋 “Charge Pouch” with cable routing to shoulder</li>
-          <li>🥤 Dual-use bottle/tripod strap with magnetic lock</li>
-          <li>🧊 Insulated side pocket for cold/warm storage</li>
-          <li>🚨 USB-rechargeable red light strip for night filming</li>
-          <li>🧭 Hidden GPS tracker pocket</li>
-          <li>😎 Top fleece-lined sunglasses/drone filter pocket</li>
-          <li>⚡ Minimalist chest & waist straps, ventilated back panel</li>
-        </ul>
-        <a class="button" href="backpack.html">View Product Page</a>
-      </div>
-    </div>
-  </section>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <script>
-    function toggleMenu() {
-      const links = document.querySelector('.nav-links');
-      links.classList.toggle('active');
-    }
-  </script>
+<section class="hero-banner">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1>EVNGEAR</h1>
+    <p>Gear designed by a creator, for creators. Lightweight. Rugged. Clean.</p>
+    <a href="#preorder" class="button">Preorder Backpack</a>
+  </div>
+</section>
+
+
+<section id="preorder" class="preorder">
+  <h2>EVNGEAR Creator Pack</h2>
+  <p class="product-tagline">Preview of the first backpack designed for hybrid creators and hikers.</p>
+  <div class="product-columns">
+    <div class="product-image">
+      <img src="backpack.png" alt="EVNGEAR Backpack Prototype" />
+    </div>
+    <div class="product-features">
+      <ul>
+        <li>🎒 Modular storage with camera + hiking gear modes</li>
+        <li>💻 Laptop compartment + quick side-access for creators</li>
+        <li>🎥 Shoulder strap zip for SD cards & thin accessories</li>
+        <li>💧 Waterproof shell + integrated rain cover</li>
+        <li>🔋 “Charge Pouch” with cable routing to shoulder</li>
+        <li>🥤 Dual-use bottle/tripod strap with magnetic lock</li>
+        <li>🧊 Insulated side pocket for cold/warm storage</li>
+        <li>🚨 USB-rechargeable red light strip for night filming</li>
+        <li>🧭 Hidden GPS tracker pocket</li>
+        <li>😎 Top fleece-lined sunglasses/drone filter pocket</li>
+        <li>⚡ Minimalist chest & waist straps, ventilated back panel</li>
+      </ul>
+      <a class="button" href="backpack.html">View Product Page</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="about">
+  <h2>About EVNGEAR</h2>
+  <p>EVNGEAR is a creator-led outdoor brand merging performance and aesthetics. For those who live behind and in front of the lens.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: evngear@gmail.com</p>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 EVNGEAR. All rights reserved.</p>
+</footer>
+
+
+<script>
+function toggleMenu() {
+  const links = document.querySelector('.nav-links');
+  links.classList.toggle('active');
+}
+</script>
 </body>
+
 </html>
