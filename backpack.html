@@ -25,7 +25,7 @@
   <h1>EVNGEAR Creator Pack</h1>
   <p class="product-tagline">Preview of the first backpack designed for hybrid creators and hikers.</p>
   <div class="product-columns">
-    <div class="product-image">
+    <div class="product-image fade-in">
       <img src="backpack.png" alt="EVNGEAR Backpack Prototype" />
     </div>
     <div class="product-features">
@@ -59,6 +59,20 @@ function toggleMenu() {
   links.classList.toggle('active');
 }
 </script>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, {
+  threshold: 0.1
+});
+document.querySelectorAll('.fade-in, .slide-in-right').forEach(el => observer.observe(el));
+</script>
 </body>
+
 
 </html>
