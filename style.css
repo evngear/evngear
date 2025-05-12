@@ -278,101 +278,21 @@ body {
   }
 }
 
-/* --- Enhanced Product Page Styles --- */
-.product-hero {
+
+/* Home Preview Two-Column Fix */
+.preview-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
   padding: 40px 20px;
   max-width: 1200px;
   margin: auto;
 }
 
-.product-columns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px;
-  align-items: flex-start;
-}
-
-.product-image {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-}
-
-.product-image img {
+.preview-img img {
   width: 100%;
-  border-radius: 12px;
-}
-
-.product-info {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-}
-
-.tagline {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.description {
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.price {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.specs ul {
-  padding-left: 20px;
-}
-
-.specs li {
-  margin-bottom: 5px;
-}
-
-.feature-highlight {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-.feature-highlight h2 {
-  margin-bottom: 20px;
-}
-
-.feature-list {
-  list-style: disc;
-  padding-left: 40px;
-}
-
-.feature-list li {
-  margin-bottom: 10px;
-}
-
-.faq {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
-.faq h2 {
-  margin-bottom: 20px;
-}
-
-.faq details {
-  margin-bottom: 15px;
-}
-
-.button.dark {
-  background: #000;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  display: inline-block;
-  margin-top: 20px;
+  height: auto;
+  display: block;
 }
