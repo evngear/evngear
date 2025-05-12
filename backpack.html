@@ -11,6 +11,7 @@
 
 <header class="navbar">
   <div class="nav-container">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
     <div class="nav-logo">EVNGEAR</div>
     <nav class="nav-links">
       <a href="index.html">Home</a>
@@ -41,6 +42,7 @@
         <li>😎 Top fleece-lined sunglasses/drone filter pocket</li>
         <li>⚡ Minimalist chest & waist straps, ventilated back panel</li>
       </ul>
+
       <a class="button" href="index.html#preorder">Preorder Now</a>
     </div>
   </div>
@@ -50,5 +52,13 @@
   <p>&copy; 2025 EVNGEAR. All rights reserved.</p>
 </footer>
 
+
+<script>
+function toggleMenu() {
+  const links = document.querySelector('.nav-links');
+  links.classList.toggle('active');
+}
+</script>
 </body>
+
 </html>
