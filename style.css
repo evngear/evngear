@@ -6,30 +6,60 @@ body {
   color: #000;
 }
 
-.navbar {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}bar {
   background: #fff;
   padding: 10px 20px;
 }
 
-.nav-container {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-container {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.nav-logo {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: #000;
 }
 
-.nav-links {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-links {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.nav-links a {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-links a {
   color: #000;
   text-decoration: none;
   padding: 10px;
@@ -260,7 +290,13 @@ body {
     display: block;
   }
 
-  .nav-links {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-links {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -268,11 +304,23 @@ body {
     padding: 10px 0;
   }
 
-  .nav-links.active {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-links.active {
     display: flex;
   }
 
-  .nav-container {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}-container {
     flex-direction: column;
     align-items: flex-start;
   }
