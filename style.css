@@ -347,3 +347,49 @@ html {
 html {
   scroll-behavior: smooth;
 }
+
+.preorder-section {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.preorder-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.preorder-form input,
+.preorder-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.preorder-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.preorder-form button:hover {
+  transform: scale(1.1);
+  background-color: #222;
+}
+
+.note {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #666;
+}
