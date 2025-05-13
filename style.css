@@ -372,9 +372,10 @@ html {
 }
 
 .preorder-form button {
+  background-color: #2e7d32;
   width: 100%;
   padding: 12px;
-  background-color: black;
+  background-color: #2e7d32;
   color: white;
   border: none;
   font-weight: bold;
@@ -385,7 +386,7 @@ html {
 
 .preorder-form button:hover {
   transform: scale(1.1);
-  background-color: #222;
+  background-color: #1b5e20;
 }
 
 .note {
